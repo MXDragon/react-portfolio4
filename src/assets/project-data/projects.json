@@ -1,0 +1,30 @@
+[
+  {
+    "name": "S.I.P.",
+    "imageUrl": "/images/sip.png",
+    "description": "Using the CocktailDB API, The Spirit Indexing Program can help you find cocktail recipes and inspiration for your available spirits, or find a bartender than can make some for you. Uses jQuery to dynamically render DOM elements.",
+    "github": "https://github.com/danshoup/build-a-cocktail",
+    "livelink": "https://danshoup.github.io/build-a-cocktail/"
+  },
+  {
+    "name": "Weather Dashboard",
+    "imageUrl": "/images/weather.png",
+    "description": "This application utilizes the OpenWeather API, jQuery library, and Moment.js to supply and persist data for a city-searchable weather dashboard.",
+    "github": "https://github.com/Curtisaurus/weather-app",
+    "livelink": "https://curtisaurus.github.io/weather-app/"
+  },
+  {
+    "name": "Day Planner",
+    "imageUrl": "/images/dayplanner.png",
+    "description": "A work-day scheduler with color-coded time blocks for past, present, and future that allow user-fillable notes to be saved with click of a button. Uses jQuery and Moment.js.",
+    "github": "https://github.com/Curtisaurus/dayplanner",
+    "livelink": "https://curtisaurus.github.io/dayplanner/"
+  },
+  {
+    "name": "CMS Techblog",
+    "imageUrl": "/images/techblog-homepage.png",
+    "description": "This application is a live CMS-style tech blog utilising a basic Model-View-Controller architecture.  The front-end is rendered using the Handlebars.js template with the back-end being constructed using the MySQL database language via the Sequelize package. The application is deployed live through Heroku.",
+    "github": "https://github.com/Curtisaurus/CMS-techblog",
+    "livelink": "https://cms-techblog.herokuapp.com/"
+  }
+]
