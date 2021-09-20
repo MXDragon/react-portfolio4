@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Covid19 Project",
+    "imageUrl": "/images/Global-Regional-Covid.png",
+    "description": "Pulls data globally and regionally, has mapy showing location.",
+    "github": "https://github.com/MXDragon/Covid19Risk-VaccineAssessment",
+    "livelink": "https://mxdragon.github.io/Covid19Risk-VaccineAssessment/"
+  },
+  {
+    "name": "Weather Dashboard",
+    "imageUrl": "/images/weatherDash.JPG",
+    "description": "This application utilizes the OpenWeather API, jQuery library, and Moment.js to supply and persist data for a city-searchable weather dashboard.",
+    "github": "https://github.com/MXDragon/Weather-Dashboard",
+    "livelink": "https://mxdragon.github.io/Weather-Dashboard/"
+  },
+  {
+    "name": "Password Generator",
+    "imageUrl": "/images/passGen.JPG",
+    "description": "A Cute password generator",
+    "github": "https://github.com/MXDragon/Password-Generator",
+    "livelink": "https://mxdragon.github.io/Password-Generator/"
+  },
+  {
+    "name": "NoteTaker",
+    "imageUrl": "/images/notetaker.JPG",
+    "description": "A CMS style blog site",
+    "github": "https://github.com/MXDragon/Note-Taker",
+    "livelink": "https://shrouded-hamlet-72405.herokuapp.com/"
+  }
+]
