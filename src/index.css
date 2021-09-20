@@ -11,3 +11,164 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 5em;
+  padding: 0 1em;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  max-height: 5em;
+  padding: 0em;
+  justify-content: center;
+  font-size: 3em;
+  align-items: center;
+  background-color: black;
+  color: white; 
+}
+
+.footer a {
+  padding: 0;
+  margin: 0 1em;
+  color: white
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-right: 1em;
+  flex-wrap: wrap ;
+}
+
+main {
+  margin: 5em 0em;
+  overflow: auto;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: darkgray;
+}
+
+.nav-item {
+  font-weight: 400;
+  color: white;
+  margin: 0 1em 0 0;
+}
+
+.disabled {
+  color: gray;
+  pointer-events: none;
+}
+
+.center {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center a {
+  color: black;
+  text-decoration: none;
+}
+
+.center p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.selfie {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  justify-content: center;
+}
+
+.project-card {
+  margin: 2em;
+  padding: 1em;
+  max-width: 35%;
+    -webkit-box-shadow: 6px 6px 15px 1px rgba(0,0,0,0.4); 
+    box-shadow: 6px 6px 15px 1px rgba(0,0,0,0.4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-links {
+  align-self: flex-end;
+}
+
+.project-links a {
+  margin: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  .project-card {
+    max-width: 70%;
+  }
+  
+  .project-card p {
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav-item {
+    font-size: 0.9em;
+  }
+
+  .header {
+    display: block;
+    flex-direction: column;
+  }
+
+  .nav-list {
+    justify-content: flex-start;
+
+  }
+  
+  main {
+    margin-top: 7em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header, .footer {
+    position: relative;
+  }
+
+  main {
+    margin-top: 1em;
+  }
+}
